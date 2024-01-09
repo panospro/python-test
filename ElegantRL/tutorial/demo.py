@@ -34,15 +34,6 @@ def demo_discrete_action_on_policy():
 
     '''choose environment'''
     if_train_cart_pole = 0
-    if if_train_cart_pole:
-        "TotalStep: 5e4, TargetReward: 200, UsedTime: 60s"
-        args.env = PreprocessEnv(env='CartPole-v0')
-        args.net_dim = 2 ** 7
-        args.batch_size = args.net_dim * 2
-        args.repeat_times = 2 ** 4
-        args.target_step = args.env.max_step * 8
-        args.if_per_or_gae = True
-
     if_train_lunar_lander = 1
     if if_train_lunar_lander:
         "TotalStep: 2e5, TargetReturn: 200, UsedTime: 400s, LunarLander-v2, PPO"
