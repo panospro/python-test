@@ -1,0 +1,2 @@
+boto3==1.26.135
+red-discordbot==3.4.0
