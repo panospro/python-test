@@ -1,2 +1,2 @@
-boto3==1.26.000
+boto3==1.26.135
 red-discordbot==3.3.0
